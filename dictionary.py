@@ -379,29 +379,30 @@ students = [{"id": 1, "names": "Valene de Leon", "gender": "Female", "maths": 78
              "chemistry": 52, "biology": 41, "accounting": 35, "history": 32}]
 
 for s in students:
-    total = s["maths"] + s["english"] + s["kiswahili"] + s["chemistry"] + s["biology"] + s["accounting"] + s["history"]
-    s["total"] = total
+  total = s["maths"] + s["english"] + s["kiswahili"] + s["chemistry"] + s["biology"] + s["accounting"] + s["history"]
+  s["total"] = total
 
-#  print(students[11])
+
+ # print(students[11])
 sorted_by_eng = sorted(students, key=lambda x: x["english"], reverse=True)
 
 sorted_by_total = sorted(students, key=lambda x: x["total"], reverse=True)
 
-# for s in sorted_by_eng:
-# print(s['english'])
+for s in sorted_by_eng:
+   print(s['english'])
 
 top_ten = sorted_by_total[0:10]
 
 for x in top_ten:
-    print(x['names'], x['total'])
+     print(x['names'], x['total'])
 
 bottom_ten = sorted_by_total[-10:]
 for x in bottom_ten:
-    print(x['names'], x['total'])
+     print(x['names'], x['total'])
 
     # all F
 
 for k in sorted_by_total:
     if k['gender'] == "Female":
-        print(k['names'])
+        # print(k['names'])
         break
