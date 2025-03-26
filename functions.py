@@ -51,6 +51,7 @@ def clean_numbers(word):
     return result
 print(clean_numbers('Ksh6000')) #6000
 
+# TODO learn about functions
 
 # print(factorial(4))
 # use a function ==cal a function
