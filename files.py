@@ -27,7 +27,7 @@ def add():
 if 10 > 11:
     pass
 
-# TODO learn how to delete a folder
+
 
 def get_dimens(image):
     return 10, 20, "png"
