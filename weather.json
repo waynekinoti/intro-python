@@ -29,7 +29,16 @@
       "gust": 3.47
    },
    "rain": {
+      "1h": 2.73,
+   "visibility": 10000,
+   "wind": {
+      "speed": 4.09,
+      "deg": 121,
+      "gust": 3.47
+   },
+   "rain": {
       "1h": 2.73
+   }
    },
    "clouds": {
       "all": 83
